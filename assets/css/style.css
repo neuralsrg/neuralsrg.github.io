@@ -23,3 +23,37 @@ body {
 .paper-list hr {
   margin: 0.5em 0;
 }
+
+/* Style the header container */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 2rem;
+}
+
+/* Style the site title */
+header h1 a {
+  color: #222;               /* Darker, less intense */
+  text-decoration: none;     /* Remove underline */
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+/* Style the nav links container */
+header nav a {
+  color: #555;               /* Softer gray */
+  text-decoration: none;     /* Remove underline */
+  margin-left: 1rem;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect for nav links */
+header nav a:hover {
+  color: #0366d6;            /* GitHub blue */
+  text-decoration: underline;
+}
