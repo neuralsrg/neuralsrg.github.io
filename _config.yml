@@ -7,3 +7,9 @@ sass:
 
 include:
   - assets/css/style.css
+
+minima:
+  social_links:
+    - { platform: arxiv,      user_url: "https://arxiv.org/a/your_arxiv_id.html" }
+    - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=your_id" }
+    - { platform: linkedin,   user_url: "https://www.linkedin.com/in/your-profile" }
