@@ -24,6 +24,14 @@ body {
   margin: 0.5em 0;
 }
 
+.paper-desc {
+  font-style: italic;
+  color: #666;
+  margin-top: 0.3em;
+  margin-bottom: 1.5em;
+  line-height: 1.5;
+}
+
 /* Style the header container */
 header {
   display: flex;
