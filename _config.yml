@@ -1,0 +1,9 @@
+title: Your Name
+description: Your personal homepage
+theme: minima
+
+sass:
+  style: compressed
+
+include:
+  - assets/css/style.css
