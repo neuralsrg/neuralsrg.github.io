@@ -12,17 +12,14 @@ This page includes a short overview of my work, selected publications, and event
 
 # Papers
 
-<div class="paper-list">
-
-### **Efficient Representations for Large-Scale Models** (2024)  
-[📄 arXiv](https://arxiv.org/abs/1234.56789) &nbsp; | &nbsp; [💻 GitHub](https://github.com/yourname/paper-repo)
+**Efficient Representations for Large-Scale Models** (2024)  
+[📄 arXiv](https://arxiv.org/abs/1234.56789) &nbsp;|&nbsp; [💻 GitHub](https://github.com/yourname/paper-repo)
 
 ---
 
-### **Neural Sampling with Feedback Loops** (2023)  
-[📄 arXiv](https://arxiv.org/abs/2345.67891) &nbsp; | &nbsp; [💻 GitHub](https://github.com/yourname/another-repo)
+**Neural Sampling with Feedback Loops** (2023)  
+[📄 arXiv](https://arxiv.org/abs/2345.67891) &nbsp;|&nbsp; [💻 GitHub](https://github.com/yourname/another-repo)
 
-</div>
 
 ---
 
