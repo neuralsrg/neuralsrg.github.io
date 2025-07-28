@@ -11,7 +11,9 @@
       <nav>
         {% if site.minima.social_links %}
           {% for link in site.minima.social_links %}
-            <a href="{{ link.user_url }}" target="_blank">{{ link.platform | capitalize }}</a>
+            <a href="{{ link.user_url }}" target="_blank">
+              {{ link.name }}
+            </a>
           {% endfor %}
         {% endif %}
       </nav>
