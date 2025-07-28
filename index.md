@@ -13,11 +13,12 @@ This page includes a short overview of my work, selected publications, and event
 # Papers
 
 **Efficient Representations for Large-Scale Models** (2024)  
-[📄 arXiv](https://arxiv.org/abs/1234.56789) &nbsp;|&nbsp; [💻 GitHub](https://github.com/yourname/paper-repo)
 
 <p class="paper-desc">
 Some description here
 </p>
+
+[📄 arXiv](https://arxiv.org/abs/1234.56789) &nbsp;|&nbsp; [💻 GitHub](https://github.com/yourname/paper-repo)
 
 ---
 
