@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+  </head>
+  <body>
+    <header>
+      <h1><a href="{{ "/" | relative_url }}">{{ site.title }}</a></h1>
+      <nav>
+        {% if site.minima.social_links %}
+          {% for link in site.minima.social_links %}
+            <a href="{{ link.user_url }}" target="_blank">{{ link.platform | capitalize }}</a>
+          {% endfor %}
+        {% endif %}
+      </nav>
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer>
+      <p>{{ site.description }}</p>
+    </footer>
+  </body>
+</html>
