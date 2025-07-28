@@ -6,3 +6,20 @@ body {
   padding: 20px;
   line-height: 1.6;
 }
+
+.paper-list {
+  margin-top: 1em;
+}
+
+.paper-list a {
+  text-decoration: none;
+  color: #0366d6;
+}
+
+.paper-list a:hover {
+  text-decoration: underline;
+}
+
+.paper-list hr {
+  margin: 0.5em 0;
+}
