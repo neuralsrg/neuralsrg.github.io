@@ -7,7 +7,6 @@ title: Home
 
 As a Master of Science student, I’ve had the honor of working with leading AI practitioners at Yandex. Together, we build and improve recommender systems across various Yandex platforms — including Yandex Music, Yandex Market, and more. We’re always excited to share our experience with the wider community of recommender system developers.
 
----
 
 # Papers
 
@@ -29,8 +28,6 @@ We revisited the derivation of the LogQ correction and identified an inconsisten
 
 [📄 arXiv](https://arxiv.org/abs/2507.09331) &nbsp;|&nbsp; [💻 GitHub](https://github.com/NonameUntitled/logq)
 
-
----
 
 # Conferences
 
