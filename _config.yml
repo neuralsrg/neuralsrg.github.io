@@ -1,4 +1,4 @@
-title: Your Name
+title: Sergei Makeev
 description: 2025
 theme: minima
 
@@ -10,6 +10,6 @@ include:
 
 minima:
   social_links:
-    - { platform: arxiv,      user_url: "https://arxiv.org/a/your_arxiv_id.html", name: "arXiv" }
-    - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=your_id", name: "Google Scholar" }
-    - { platform: linkedin,   user_url: "https://www.linkedin.com/in/your-profile", name: "LinkedIn" }
+    - { platform: arxiv,      user_url: "https://arxiv.org/search/cs?searchtype=author&query=Makeev,+S", name: "arXiv" }
+    - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=rOJPT8oAAAAJ&hl=en&oi=sra", name: "Google Scholar" }
+    - { platform: linkedin,   user_url: "https://www.linkedin.com/in/sergei-makeev-464210377/", name: "LinkedIn" }
