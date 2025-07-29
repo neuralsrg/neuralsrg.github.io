@@ -37,3 +37,4 @@ We revisited the derivation of the LogQ correction and identified an inconsisten
 # Other events
 
 - ACM Europe School on Recommender Systems, 2025
+- RecSys Challenge 2025 - 4th place
