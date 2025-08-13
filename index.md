@@ -41,7 +41,9 @@ We revisited the derivation of the LogQ correction and identified an inconsisten
 
 # Conferences
 
-- RecSys'25 - Short paper author - *Correcting the LogQ Correction: Revisiting Sampled Softmax for Large-Scale Retrieval*
+- RecSys'25 Author of:
+    - Short papers track *Correcting the LogQ Correction: Revisiting Sampled Softmax for Large-Scale Retrieval*
+    - RecSys Challenge track *Blending Sequential Embeddings, Graphs, and Engineered Features: 4th Place Solution in RecSys Challenge 2025*
 - UMAP'25 – Industry Track PC member
 
 # Other events
