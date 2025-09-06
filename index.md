@@ -16,7 +16,7 @@ As a Master of Science student, I’ve had the honor of working with leading AI 
 We are excited to share our work from the RecSys Challenge 2025! In our solution, we combined the Transformer, TwHIN graph neural network, DCN-v2, and hundreds of carefully engineered numeric features. We discuss feature engineering in detail in the Appendix, which one of our reviewers called a "goldmine of practical insights". We will be presenting our paper at RecSys 2025 in Prague.
 </p>
 
-[📄 arXiv](https://arxiv.org/abs/2508.06970) [📄 dl.acm.org](https://dl.acm.org/doi/10.1145/3758126.3758131)
+[📄 arXiv](https://arxiv.org/abs/2508.06970) &nbsp;|&nbsp; [📄 dl.acm.org](https://dl.acm.org/doi/10.1145/3758126.3758131)
 
 ---
 
@@ -36,7 +36,7 @@ We proposed a two-stage training approach for a ranking causal transformer. In t
 We revisited the derivation of the LogQ correction and identified an inconsistency related to the treatment of the positive sample in the denominator. By explicitly accounting for the positive sample during Monte Carlo sampling, we derived a new formulation that introduces an intuitive reweighting coefficient. Interestingly, the modified loss function achieves superior performance on both open datasets and large-scale proprietary benchmarks.
 </p>
 
-[📄 arXiv](https://arxiv.org/abs/2507.09331) &nbsp;|&nbsp; [💻 GitHub](https://github.com/NonameUntitled/logq)
+[📄 arXiv](https://arxiv.org/abs/2507.09331) &nbsp;|&nbsp; [💻 GitHub](https://github.com/NonameUntitled/logq) &nbsp;|&nbsp; [📄 dl.acm.org](https://dl.acm.org/doi/10.1145/3705328.3748033)
 
 
 # Conferences
