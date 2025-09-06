@@ -16,7 +16,7 @@ As a Master of Science student, I’ve had the honor of working with leading AI 
 We are excited to share our work from the RecSys Challenge 2025! In our solution, we combined the Transformer, TwHIN graph neural network, DCN-v2, and hundreds of carefully engineered numeric features. We discuss feature engineering in detail in the Appendix, which one of our reviewers called a "goldmine of practical insights". We will be presenting our paper at RecSys 2025 in Prague.
 </p>
 
-[📄 arXiv](https://arxiv.org/abs/2508.06970)
+[📄 arXiv](https://arxiv.org/abs/2508.06970) [📄 dl.acm.org](https://dl.acm.org/doi/10.1145/3758126.3758131)
 
 ---
 
