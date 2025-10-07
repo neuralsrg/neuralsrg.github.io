@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Sergei Makeev"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "R&D in RecSys"
   location         : "Moscow, Russia"
   employer         : "Moscow State University"
   uri              : # URL
@@ -83,10 +83,10 @@ author:
 publication_category:
   books:
     title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
+  manuscripts:
+    title: 'Preprints'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
