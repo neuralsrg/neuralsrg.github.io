@@ -17,7 +17,7 @@ About the data
 ------
 The challenge was centered on a large-scale e-commerce platform. Participants were given around 200 million user-item interactions collected over roughly six months. These interactions were highly imbalanced. Most -- about 90% -- were page visits. The remaining 10% included search queries, cart additions, and cart removals, with purchases being relatively rare.
 
-The task was to generate user embeddings, referred to as Universal Behavioral Profiles. These embeddings were intended for server-side use in training six separate models - each corresponding to a different evaluation task.
+The task was to generate user embeddings, referred to as Universal Behavioral Profiles. These embeddings were intended for server-side use in training six separate models -- each corresponding to a different evaluation task.
 
 
 Solution overview
@@ -34,7 +34,7 @@ Sequential Encoder - inputs
 ------
 Cart additions, removals, and purchases are all item-related interactions, so we encode them in a similar way. Due to the high cardinality of SKU and category IDs, we apply a hashing function and map the results to an embedding table with 500,000 entries. To reduce collisions, we use two different hashing functions with separate seeds and concatenate the resulting embeddings. This technique, originally proposed by Google, is known as Multisize-Unified Embeddings.
 
-For other features like price, item name, and search queries—which were already tokenized by the organizers—we simply used learnable token embeddings for each token ID. URL IDs were handled similarly using the multihash technique with the same embedding table.
+For other features like price, item name, and search queries -- which were already tokenized by the organizers -- we simply used learnable token embeddings for each token ID. URL IDs were handled similarly using the multihash technique with the same embedding table.
 
 
 Sequential Encoder - training
@@ -88,8 +88,8 @@ Deep Cross Network - contrastive learning
 ------
 To help the model learn more meaningful representations, we incorporated contrastive learning.
 
-We applied random masking to each user sequence twice, with a 30% probability of masking each interaction. These two augmented sequences were then processed as usual—through the sequential encoder and embedding pipeline.
-We treated the resulting pair of embeddings as positive examples and used a sampled softmax loss with in-batch negatives for training. The best part is—it actually worked. It significantly improved our offline metrics.
+We applied random masking to each user sequence twice, with a 30% probability of masking each interaction. These two augmented sequences were then processed as usual -- through the sequential encoder and embedding pipeline.
+We treated the resulting pair of embeddings as positive examples and used a sampled softmax loss with in-batch negatives for training. It significantly improved our offline metrics.
 
 
 Key ablation insights
