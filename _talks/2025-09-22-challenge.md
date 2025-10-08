@@ -25,19 +25,19 @@ Solution overview
 We stacked embeddings from four diverse models. These included a transformer-based sequential encoder and a graph neural network developed by former Twitter researchers, refered to as TwHIN. In addition to that, we engineered around 300 numerical features and modeled interactions between them using a Deep Cross Network.
 
 
-Sequential Encoder
+Sequential Encoder - overview
 ------
 We represent each user as a sequence of their interactions of all types ordered by timestamp. We then feed this sequence into a Transformer model with a causal mask. The final hidden state of the Transformer is used as the user’s representation.
 
 
-Sequential Encoder
+Sequential Encoder - inputs
 ------
 Cart additions, removals, and purchases are all item-related interactions, so we encode them in a similar way. Due to the high cardinality of SKU and category IDs, we apply a hashing function and map the results to an embedding table with 500,000 entries. To reduce collisions, we use two different hashing functions with separate seeds and concatenate the resulting embeddings. This technique, originally proposed by Google, is known as Multisize-Unified Embeddings.
 
 For other features like price, item name, and search queries—which were already tokenized by the organizers—we simply used learnable token embeddings for each token ID. URL IDs were handled similarly using the multihash technique with the same embedding table.
 
 
-Sequential Encoder 
+Sequential Encoder - training
 ------
 We trained this model to predict both the type of the next interaction and the time elapsed since the previous one.
 
@@ -51,7 +51,7 @@ Next, we adopted a Graph Neural Network to learn user embeddings. We chose the m
 We built a bipartite user-item graph, where edges represented cart additions and purchases. For item embeddings, we used the pretrained content encoder from the sequential model. We used 1.5M learnable embeddings for users with the most interactions including those required for evaluation. 
 
 
-TwHIN details
+TwHIN - details
 ------
 The core idea behind TwHIN is straightforward. First, the user embedding is normalized. Then, the item embedding is combined with a relation embedding corresponding to the edge type, and the result is also normalized. The probability of an edge is then modeled using the sigmoid of the dot product between the user and item embeddings.
 
@@ -84,7 +84,7 @@ We then concatenated the sequential and numeric embeddings and passed the result
 This model was trained on the disclosed tasks: churn prediction, SKU propensity, and category propensity. The main challenge here was the extreme sparsity of the target labels.
 
 
-Deep Cross Network 
+Deep Cross Network - contrastive learning
 ------
 To help the model learn more meaningful representations, we incorporated contrastive learning.
 
