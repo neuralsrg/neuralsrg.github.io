@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -11,54 +11,68 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **MSc in Applied Mathematics and Computer Science**, Moscow State University, 2024 -- present
+* **BSc in Applied Mathematics and Computer Science**, Moscow State University, 2020 -- 2024
+  * Diploma with Honours
+  * Thesis topics: Application of discrete mathematics and combinatorics in machine learning
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **Middle Deep Learning Engineer**, RecSys R&D at Yandex, 2025 -- present
+  * Research topics:
+    * Generative Models
+    * Scaling Laws
+    * Quality-complexity tradeoffs for real-time recommendation models
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* **Junior Deep Learning Engineer**, RecSys R&D at Yandex, 2024 -- 2025
+  * Research topics:
+    * Generative Models
+    * Scaling Laws
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Research Intern**, RecSys R&D at Yandex, 2024
+  * Research topics: Graph Neural Network applications in web-scale recommender systems
+
+* **Research Assistant**, Moscow State University, 2021 -- 2024
+  * Research topics: Cognitive dynamics analysis and internal speech recognition
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
+Conferences
+======
+* **RecSys'25**, Prague, Czech Republic
+  * [Blending Sequential Embeddings, Graphs, and Engineered Features: 4th Place Solution in RecSys Challenge 2025](https://neuralsrg.github.io/publication/2025-08-09-challenge)
+  * [Correcting the LogQ Correction: Revisiting Sampled Softmax for Large-Scale Retrieval](https://neuralsrg.github.io/publication/2025-07-12-correcting)
+* **UMAP'25**, New York, USA
+  * PC member of Industry & Start-up Track
+
+Competitions
+======
+* RecSys Challenge 2025 - 4th place
+  * Paper: [Blending Sequential Embeddings, Graphs, and Engineered Features: 4th Place Solution in RecSys Challenge 2025](https://neuralsrg.github.io/publication/2025-08-09-challenge)
+  * Talk: [4th Place Solution in RecSys Challenge 2025](https://neuralsrg.github.io/talks/2025-09-22-challenge)
+
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
-  
-Teaching
+
+Scholarships
+======
+* Individual Moscow Government Scholarship for Academic Achievements, 2020 -- 2021
+* Increased state academic scholarship for outstanding academic achievements, 2022
+
+<!-- Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
-Service and leadership
+Other skills
 ======
-* Currently signed in to 43 different slack teams
+* _Programming languages_: Python, C/C++, Assembly, basic knowledge of CUDA
+* _Orchestrators_: Nirvana - at Yandex, I had experience training models on hundreds of GPUs
