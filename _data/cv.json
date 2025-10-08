@@ -1,61 +1,52 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Sergei Makeev",
+    "email": "neuralsrg@gmail.com",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://neuralsrg.github.io",
+    "summary": "MSc at Moscow State University (expected), RecSys R&D at Yandex",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "city": "Moscow",
+      "countryCode": "RU",
       "region": ""
     },
     "profiles": [
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "https://scholar.google.com/citations?user=rOJPT8oAAAAJ&hl=en&oi=sra"
       },
       {
         "network": "ORCID",
         "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "url": "https://orcid.org/0009-0003-5451-6475"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "neuralsrg",
+        "url": "https://github.com/neuralsrg"
       }
     ]
   },
   "work": [],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
+      "institution": "Moscow State University",
+      "area": "M.S. in Applied Mathematics and Computer Science",
       "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "startDate": "2024",
+      "endDate": "",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
+      "institution": "Moscow State University",
+      "area": "B.S. in Applied Mathematics and Computer Science",
       "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "startDate": "2020",
+      "endDate": "2024",
       "gpa": null,
       "courses": []
     }
@@ -66,87 +57,34 @@
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Scaling Recommender Transformers to One Billion Parameters",
+      "publisher": "ArXiv",
+      "releaseDate": "2025-07-21",
+      "website": "https://www.arxiv.org/abs/2507.15994",
+      "summary": "We proposed a two-stage training approach for a ranking causal transformer. In the first stage, we pretrain the model on a fundamental next-token prediction task, which is essential for enabling scale-up of the encoder. In the second stage, we fine-tune the model on a pairwise ranking objective. We evaluate performance across four model sizes with exponentially increasing encoder capacity and demonstrate adherence to the scaling law."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Correcting the LogQ Correction: Revisiting Sampled Softmax for Large-Scale Retrieval",
+      "publisher": "Proceedings of the 19th ACM Conference on Recommender Systems (RecSys’25), 2025",
+      "releaseDate": "2025-07-12",
+      "website": "https://arxiv.org/abs/2507.09331",
+      "summary": "We revisited the derivation of the LogQ correction and identified an inconsistency related to the treatment of the positive sample in the denominator. By explicitly accounting for the positive sample during Monte Carlo sampling, we derived a new formulation that introduces an intuitive reweighting coefficient. Interestingly, the modified loss function achieves superior performance on both open datasets and large-scale proprietary benchmarks."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Blending Sequential Embeddings, Graphs, and Engineered Features: 4th Place Solution in RecSys Challenge 2025",
+      "publisher": "Proceedings of the 19th ACM Conference on Recommender Systems (RecSys’25), 2025",
+      "releaseDate": "2025-08-09",
+      "website": "https://arxiv.org/abs/2508.06970",
+      "summary": "I am excited to share our work from the RecSys Challenge 2025! In our solution, we combined the Transformer, TwHIN graph neural network, DCN-v2, and hundreds of carefully engineered numeric features. We discuss feature engineering in detail in the Appendix, which one of our reviewers called a “goldmine of practical insights”. I presented our paper at RecSys 2025 in Prague."
     }
   ],
   "presentations": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
+      "name": "4th Place Solution in RecSys Challenge 2025",
+      "event": "RecSys'25",
+      "date": "2012-09-22",
+      "location": "Prague, Czech Republic",
       "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
     }
   ]
 }
