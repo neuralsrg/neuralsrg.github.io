@@ -13,6 +13,6 @@ During my undergraduate studies, I also worked as a research assistant, applying
 
 Currently, I’m pursuing a Master’s degree at the same university, with a focus on Information Retrieval and Recommender Systems. Alongside my studies, I work as a Deep Learning Engineer in the RecSys R&D team at Yandex. I'm especially interested in the mathematical theory behind machine learning in general. My Master’s thesis builds on our [recent paper](https://arxiv.org/abs/2507.09331), which addresses bias correction techniques in large-scale information retrieval systems.
 
-After completing my MSc, I plan to continue in academic research and pursue a PhD. My research interests include (but are not limited to) Information Retrieval, Recommender Systems, the underlying mathematics of deep learning (e.g., Bayesian methods), as well as fairness and inclusion in recommender systems.
+After completing my MSc, I plan to continue in academic research and pursue a PhD. **My research interests** include (but are not limited to) information retrieval, debiasing, conversational and explainable recommender systems, generative models and scaling laws, fairness and inclusion in recommendations, as well as the general underlying mathematics of deep learning (e.g., Bayesian methods).
 
 Outside of academia and work, I’m passionate about chess and travel. I'm always happy to talk about chess tournaments or the places I've explored around the world.

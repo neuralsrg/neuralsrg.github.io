@@ -35,6 +35,16 @@ Work experience
 * **Research Assistant**, Moscow State University, 2021 -- 2024
   * Research topics: Cognitive dynamics analysis and internal speech recognition
 
+Research interests
+======
+* Information retrieval
+* Recommender systems
+* Debiasing in recommendations
+* Conversational and explainable recommender systems
+* Generative models and scaling laws
+* Fairness and inclusion in recommendations
+* General underlying mathematics of deep learning (e.g., Bayesian methods)
+
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
