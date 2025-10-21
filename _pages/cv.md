@@ -51,12 +51,13 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-Conferences
+Conferences & Academic Programs
 ======
-* **RecSys'25**, Prague, Czech Republic
+* **RecSys'25**, Prague, Czech Republic. Sep 2025
   * [Blending Sequential Embeddings, Graphs, and Engineered Features: 4th Place Solution in RecSys Challenge 2025](https://neuralsrg.github.io/publication/2025-08-09-challenge)
   * [Correcting the LogQ Correction: Revisiting Sampled Softmax for Large-Scale Retrieval](https://neuralsrg.github.io/publication/2025-07-12-correcting)
-* **UMAP'25**, New York, USA
+* **ACM Europe School on Recommender Systems**, Vienna, Austria. Sep 2025
+* **UMAP'25**, New York, USA. Jun 2025
   * PC member of Industry & Start-up Track
 
 Competitions
