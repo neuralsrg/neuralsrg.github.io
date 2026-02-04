@@ -18,7 +18,11 @@ Education
 
 Work experience
 ======
-* **Middle Deep Learning Engineer**, RecSys R&D at Yandex, 2025 -- present
+* **Senior Deep Learning Engineer**, RecSys R&D at Yandex, 2026 -- present
+  * Research topics:
+    * Linear attention in real-time recommendation models
+
+* **Middle Deep Learning Engineer**, RecSys R&D at Yandex, 2025 -- 2026
   * Research topics:
     * Generative Models
     * Scaling Laws
@@ -45,20 +49,22 @@ Research interests
 * Fairness and inclusion in recommendations
 * General underlying mathematics of deep learning (e.g., Bayesian methods)
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
 Conferences & Academic Programs
 ======
+* **KDD'26**, Jeju, Korea. Aug 2026
+  * [Scaling Recommender Transformers to One Billion Parameters](https://neuralsrg.github.io/publication/2025-07-21-argus)
 * **RecSys'25**, Prague, Czech Republic. Sep 2025
   * [Blending Sequential Embeddings, Graphs, and Engineered Features: 4th Place Solution in RecSys Challenge 2025](https://neuralsrg.github.io/publication/2025-08-09-challenge)
   * [Correcting the LogQ Correction: Revisiting Sampled Softmax for Large-Scale Retrieval](https://neuralsrg.github.io/publication/2025-07-12-correcting)
 * **ACM Europe School on Recommender Systems**, Vienna, Austria. Sep 2025
 * **UMAP'25**, New York, USA. Jun 2025
   * PC member of Industry & Start-up Track
+
+Publications
+======
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
 
 Competitions
 ======
