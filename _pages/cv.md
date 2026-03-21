@@ -53,6 +53,8 @@ Conferences & Academic Programs
 ======
 * **KDD'26**, Jeju, Korea. Aug 2026
   * [Scaling Recommender Transformers to One Billion Parameters](https://neuralsrg.github.io/publication/2025-07-21-argus)
+* **UMAP'26**, Gothenburg, Sweden. Jun 2026
+  * PC member of Industry Track
 * **RecSys'25**, Prague, Czech Republic. Sep 2025
   * [Blending Sequential Embeddings, Graphs, and Engineered Features: 4th Place Solution in RecSys Challenge 2025](https://neuralsrg.github.io/publication/2025-08-09-challenge)
   * [Correcting the LogQ Correction: Revisiting Sampled Softmax for Large-Scale Retrieval](https://neuralsrg.github.io/publication/2025-07-12-correcting)
@@ -91,5 +93,10 @@ Scholarships
   
 Other skills
 ======
-* _Programming languages_: Python, C/C++, Assembly, basic knowledge of CUDA
-* _Orchestrators_: Nirvana - at Yandex, I had experience training models on hundreds of GPUs
+* _Programming languages_:
+  * Python
+  * C/C++
+  * Assembly
+  * basic knowledge of CUDA
+* _Orchestrators_:
+  * Nirvana - at Yandex, I had experience training models on hundreds of GPUs
