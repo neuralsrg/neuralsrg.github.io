@@ -58,8 +58,8 @@
   "publications": [
     {
       "name": "Scaling Recommender Transformers to One Billion Parameters",
-      "publisher": "ArXiv",
-      "releaseDate": "2025-07-21",
+      "publisher": "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+      "releaseDate": "2026-04-20",
       "website": "https://www.arxiv.org/abs/2507.15994",
       "summary": "We proposed a two-stage training approach for a ranking causal transformer. In the first stage, we pretrain the model on a fundamental next-token prediction task, which is essential for enabling scale-up of the encoder. In the second stage, we fine-tune the model on a pairwise ranking objective. We evaluate performance across four model sizes with exponentially increasing encoder capacity and demonstrate adherence to the scaling law."
     },
