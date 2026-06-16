@@ -11,14 +11,20 @@ redirect_from:
 
 Education
 ======
-* **MSc in Applied Mathematics and Computer Science**, Moscow State University, 2024 -- present
-* **BSc in Applied Mathematics and Computer Science**, Moscow State University, 2020 -- 2024
+* **MSc in Applied Mathematics and Computer Science**, Moscow State University, Faculty of Computational Mathematics and Cybernetics, 2024 -- 2026
+  * Diploma with Honours
+  * Thesis topics: Approximation of softmax activation function in recommendation problem
+* **BSc in Applied Mathematics and Computer Science**, Moscow State University, Faculty of Computational Mathematics and Cybernetics, 2020 -- 2024
   * Diploma with Honours
   * Thesis topics: Application of discrete mathematics and combinatorics in machine learning
 
 Work experience
 ======
-* **Senior Deep Learning Engineer**, RecSys R&D at Yandex, 2026 -- present
+* **Senior Researcher**, AI VK, 2026 -- present
+  * Research topics:
+    * Generative retrieval
+    * Reinforcement learning in RecSys
+* **Senior Deep Learning Engineer**, RecSys R&D at Yandex, 2026
   * Research topics:
     * Linear attention in real-time recommendation models
 
@@ -42,17 +48,21 @@ Work experience
 Research interests
 ======
 * Information retrieval
+* Reinforcement learning
 * Recommender systems
 * Debiasing in recommendations
 * Conversational and explainable recommender systems
 * Generative models and scaling laws
-* Fairness and inclusion in recommendations
 * General underlying mathematics of deep learning (e.g., Bayesian methods)
 
 Conferences & Academic Programs
 ======
+* **CIKM'26**, Rome, Italy. Nov 2026
+  * PC member of Demo Track
 * **KDD'26**, Jeju, Korea. Aug 2026
   * [Scaling Recommender Transformers to One Billion Parameters](https://neuralsrg.github.io/publication/2025-07-21-argus)
+* **SIGIR'26**, Melbourne, Naarm, Australia. Jul 2026
+  * [Gated Bidirectional Linear Attention for Generative Retrieval](https://neuralsrg.github.io/publication/2026-06-08-gbla)
 * **UMAP'26**, Gothenburg, Sweden. Jun 2026
   * PC member of Industry Track
 * **RecSys'25**, Prague, Czech Republic. Sep 2025
@@ -90,8 +100,8 @@ Scholarships
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul> -->
-  
-Other skills
+
+<!-- Other skills
 ======
 * _Programming languages_:
   * Python
@@ -99,4 +109,4 @@ Other skills
   * Assembly
   * basic knowledge of CUDA
 * _Orchestrators_:
-  * Nirvana - at Yandex, I had experience training models on hundreds of GPUs
+  * Nirvana - at Yandex, I had experience training models on hundreds of GPUs -->
