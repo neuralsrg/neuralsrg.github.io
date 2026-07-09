@@ -9,6 +9,10 @@ redirect_from:
 
 {% include base_path %}
 
+<div class="cv-download-links">
+  <a href="{{ base_path }}/files/cv.pdf" class="btn btn--primary">Download CV as PDF</a>
+</div>
+
 Education
 ======
 * **MSc in Applied Mathematics and Computer Science**, Moscow State University, Faculty of Computational Mathematics and Cybernetics, 2024 -- 2026
@@ -100,10 +104,6 @@ Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-
-<div class="cv-download-links">
-  <a href="{{ base_path }}/files/cv.pdf" class="btn btn--primary">Download CV as PDF</a>
-</div>
 
 <!-- Other skills
 ======
