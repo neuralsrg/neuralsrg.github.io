@@ -1,20 +1,11 @@
 ---
-title: "Teaching experience 1"
+title: "DeepRecSys Course"
 collection: teaching
-type: "Undergraduate course"
+type: "Undergraduate course"  # Workshop
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+venue: "Faculty of Computer Science, HSE University"
+date: 2026-03-24
+location: "Moscow, Russia"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+Contributed to the open course taught by Kirill Khrylchenko at the Faculty of Computer Science, HSE University. [GitHub link](https://github.com/KhrylchenkoKirill/DeepRecSys).

@@ -95,11 +95,15 @@ Scholarships
 * Individual Moscow Government Scholarship for Academic Achievements, 2020 -- 2021
 * Increased state academic scholarship for outstanding academic achievements, 2022
 
-<!-- Teaching
+Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul> -->
+  {% endfor %}</ul>
+
+<div class="cv-download-links">
+  <a href="{{ base_path }}/files/cv.pdf" class="btn btn--primary">Download CV as PDF</a>
+</div>
 
 <!-- Other skills
 ======
