@@ -4,6 +4,8 @@ collection: publications
 category: conferences # conferences, manuscripts
 permalink: /publication/2026-07-01-long-term-optimization
 conference_label: KDD’26 Workshop
+location: Jeju Island, Republic of Korea
+conference_date_label: August 2026
 conference_note: 5th Workshop on End-to-End Customer Journey Optimization
 authors: 'Artem Matveev, <strong>Sergei Makeev</strong>, Aleksei Krasilnikov, Vladimir Baikalov, Sergei Liamaev, Kirill Khrylchenko'
 excerpt: 'In this paper, we trained an RL agent using off-policy REINFORCE to maximize per-trajectory rewards. We also applied off-policy evaluation methods for RL, which is novel to recommendation systems. Our results demonstrate that session-wise optimization yields better off-policy evaluation metrics than maximizing immediate rewards, given the same amount of data, training time, and compute.'
