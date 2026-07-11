@@ -64,7 +64,7 @@ Conferences & Academic Programs
 * **CIKM'26**, Rome, Italy. Nov 2026
   * PC member of Demo Track
 * **KDD'26**, Jeju, Korea. Aug 2026
-  * [Scaling Recommender Transformers to One Billion Parameters](https://neuralsrg.github.io/publication/2025-07-21-argus)
+  * [Scaling Recommender Transformers to One Billion Parameters](https://neuralsrg.github.io/publication/2026-07-05-argus)
 * **SIGIR'26**, Melbourne, Naarm, Australia. Jul 2026
   * [Gated Bidirectional Linear Attention for Generative Retrieval](https://neuralsrg.github.io/publication/2026-06-08-gbla)
 * **UMAP'26**, Gothenburg, Sweden. Jun 2026

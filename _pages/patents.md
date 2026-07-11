@@ -14,7 +14,7 @@ author_profile: true
     </h2>
     <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> December 2025</p>
     <p class="archive__item-excerpt" itemprop="description">
-      Yandex filed a patent application for Argus; see the paper <a href="{{ site.baseurl }}/publication/2025-07-21-argus">Scaling Recommender Transformers to One Billion Parameters</a>.
+      Yandex filed a patent application for Argus; see the paper <a href="{{ site.baseurl }}/publication/2026-07-05-argus">Scaling Recommender Transformers to One Billion Parameters</a>.
     </p>
   </article>
 </div>
