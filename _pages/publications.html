@@ -15,7 +15,8 @@ redirect_from:
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-{% assign conference_papers = site.publications | where: "category", "conferences" | sort: "conference_order" %}
+{% assign conference_papers = site.publications | where: "category", "conferences" | sort: "path" | reverse %}
+{% assign professional_service = site.professional_service | sort: "path" | reverse %}
 
 <ul>
   {% for paper in conference_papers %}
@@ -35,9 +36,9 @@ redirect_from:
 <h2>Professional Service</h2><hr />
 
 <ul>
-  <li><strong>CIKM 2026.</strong> PC member, Demo Track.</li>
-  <li><strong>UMAP 2026.</strong> PC member, Industry Track.</li>
-  <li><strong>UMAP 2025.</strong> PC member, Industry &amp; Start-up Track.</li>
+  {% for service in professional_service %}
+    <li><strong>{{ service.title }}.</strong> {{ service.description }}</li>
+  {% endfor %}
 </ul>
 
 

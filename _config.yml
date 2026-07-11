@@ -224,6 +224,8 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+  professional_service:
+    output: false
   portfolio:
     output: true
     permalink: /:collection/:path/
