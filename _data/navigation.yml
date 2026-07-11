@@ -20,7 +20,7 @@ main:
   - title: "Teaching"
     url: /teaching/    
 
-  - title: "Patents"
+  - title: "Patents & Grants"
     url: /patents/
 
   - title: "Competitions"
@@ -32,9 +32,6 @@ main:
   - title: "Mentorship"
     url: /mentorship/
 
-  - title: "Grants"
-    url: /grants/
-    
   # - title: "Portfolio"
   #   url: /portfolio/
         
