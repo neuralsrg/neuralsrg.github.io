@@ -3,6 +3,7 @@ title: "Correcting the LogQ Correction: Revisiting Sampled Softmax for Large-Sca
 collection: publications
 category: conferences # conferences, manuscripts
 permalink: /publication/2025-07-12-correcting
+conference_label: RecSys'25
 conference_order: 50
 authors: 'Kirill Khrylchenko, Vladimir Baikalov, <strong>Sergei Makeev</strong>, Artem Matveev, Sergei Liamaev'
 excerpt: 'We revisited the derivation of the LogQ correction and identified an inconsistency related to the treatment of the positive sample in the denominator. By explicitly accounting for the positive sample during Monte Carlo sampling, we derived a new formulation that introduces an intuitive reweighting coefficient. Interestingly, the modified loss function achieves superior performance on both open datasets and large-scale proprietary benchmarks.'

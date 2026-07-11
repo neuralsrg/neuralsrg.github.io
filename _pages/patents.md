@@ -5,7 +5,7 @@ permalink: /patents/
 author_profile: true
 ---
 
-<h2>Patents</h2>
+<h2>Patents</h2><hr />
 
 <div class="list__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
@@ -19,7 +19,7 @@ author_profile: true
   </article>
 </div>
 
-<h2>Grants</h2>
+<h2>Grants</h2><hr />
 
 <div class="list__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">

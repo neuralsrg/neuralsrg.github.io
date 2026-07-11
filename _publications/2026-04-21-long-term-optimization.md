@@ -3,7 +3,7 @@ title: "Long-Term Optimization for Large-Scale Generative Retrieval with Off-Pol
 collection: publications
 category: conferences # conferences, manuscripts
 permalink: /publication/2026-04-21-long-term-optimization
-conference_label: KDD 2026 Workshop
+conference_label: KDD'26 Workshop
 conference_note: 5th Workshop on End-to-End Customer Journey Optimization
 conference_order: 20
 authors: 'Artem Matveev, <strong>Sergei Makeev</strong>, Aleksei Krasilnikov, Vladimir Baikalov, Sergei Liamaev, Kirill Khrylchenko'

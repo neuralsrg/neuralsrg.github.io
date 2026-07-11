@@ -3,7 +3,7 @@ title: "Blending Sequential Embeddings, Graphs, and Engineered Features: 4th Pla
 collection: publications
 category: conferences # conferences, manuscripts
 permalink: /publication/2025-08-09-challenge
-conference_label: RecSys 2025
+conference_label: RecSys'25
 conference_order: 40
 authors: '<strong>Sergei Makeev</strong>, Alexandr Andreev, Vladimir Baikalov, Vladislav Tytskiy, Aleksei Krasilnikov, Kirill Khrylchenko'
 excerpt: 'I am excited to share our work from the RecSys Challenge 2025! In our solution, we combined the Transformer, TwHIN graph neural network, DCN-v2, and hundreds of carefully engineered numeric features. We discuss feature engineering in detail in the Appendix, which one of our reviewers called a "goldmine of practical insights". I presented our paper at RecSys 2025 in Prague.'
