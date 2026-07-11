@@ -226,6 +226,12 @@ collections:
     permalink: /:collection/:path/
   professional_service:
     output: false
+  patents:
+    output: false
+  grants:
+    output: false
+  competitions:
+    output: false
   portfolio:
     output: true
     permalink: /:collection/:path/
