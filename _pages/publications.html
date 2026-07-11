@@ -15,17 +15,21 @@ redirect_from:
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
+{% assign conference_papers = site.publications | where: "category", "conferences" | sort: "conference_order" %}
+
 <ul>
-  <li><strong>KDD 2026.</strong> <a href="{{ base_path }}/publication/2025-07-21-argus">Scaling Recommender Transformers to One Billion Parameters</a><br />
-  Kirill Khrylchenko, Artem Matveev, <strong>Sergei Makeev</strong>, Vladimir Baikalov</li>
-  <li><strong>KDD 2026 Workshop.</strong> Long-Term Optimization for Large-Scale Generative Retrieval with Off-Policy REINFORCE, <i>5th Workshop on End-to-End Customer Journey Optimization</i><br />
-  Artem Matveev, <strong>Sergei Makeev</strong>, Aleksei Krasilnikov, Vladimir Baikalov, Sergei Liamaev, Kirill Khrylchenko</li>
-  <li><strong>SIGIR 2026.</strong> <a href="{{ base_path }}/publication/2026-06-08-gbla">Gated Bidirectional Linear Attention for Generative Retrieval</a><br />
-  Artem Matveev, Vladislav Tytskiy, <strong>Sergei Makeev</strong>, Sergei Liamaev</li>
-  <li><strong>RecSys 2025.</strong> <a href="{{ base_path }}/publication/2025-08-09-challenge">Blending Sequential Embeddings, Graphs, and Engineered Features: 4th Place Solution in RecSys Challenge 2025</a><br />
-  <strong>Sergei Makeev</strong>, Alexandr Andreev, Vladimir Baikalov, Vladislav Tytskiy, Aleksei Krasilnikov, Kirill Khrylchenko</li>
-  <li><a href="{{ base_path }}/publication/2025-07-12-correcting">Correcting the LogQ Correction: Revisiting Sampled Softmax for Large-Scale Retrieval</a><br />
-  Kirill Khrylchenko, Vladimir Baikalov, <strong>Sergei Makeev</strong>, Artem Matveev, Sergei Liamaev</li>
+  {% for paper in conference_papers %}
+    <li>
+      {% if paper.conference_label %}<strong>{{ paper.conference_label }}.</strong> {% endif %}<a href="{{ base_path }}{{ paper.url }}">{{ paper.title }}</a>{% if paper.conference_note %}, <i>{{ paper.conference_note }}</i>{% endif %}<br />
+      {{ paper.authors }}
+      {% if paper.excerpt %}
+        <p class="archive__item-excerpt" itemprop="description">{{ paper.excerpt | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
+      {% endif %}
+      {% if paper.news_excerpt %}
+        <p class="archive__item-excerpt" itemprop="description">{{ paper.news_excerpt | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
+      {% endif %}
+    </li>
+  {% endfor %}
 </ul>
 
 <h2>Professional Service</h2><hr />

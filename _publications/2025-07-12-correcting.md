@@ -3,7 +3,11 @@ title: "Correcting the LogQ Correction: Revisiting Sampled Softmax for Large-Sca
 collection: publications
 category: conferences # conferences, manuscripts
 permalink: /publication/2025-07-12-correcting
+conference_order: 50
+authors: 'Kirill Khrylchenko, Vladimir Baikalov, <strong>Sergei Makeev</strong>, Artem Matveev, Sergei Liamaev'
 excerpt: 'We revisited the derivation of the LogQ correction and identified an inconsistency related to the treatment of the positive sample in the denominator. By explicitly accounting for the positive sample during Monte Carlo sampling, we derived a new formulation that introduces an intuitive reweighting coefficient. Interestingly, the modified loss function achieves superior performance on both open datasets and large-scale proprietary benchmarks.'
+news_excerpt: >-
+  This paper also received extensive discussion, including <a href="https://vc.ru/id15892/2208230-yandeks-predlagaet-novuyu-formulu-logq-korrektsii">vc.ru</a>, <a href="https://ict.moscow/news/v-iandekse-razrabotali-novyi-metod-obucheniia-ii-modelei-dlia-rekomendatelnykh-sistem/">ict.moscow</a>, <a href="https://www.kommersant.ru/doc/8023220">kommersant.ru</a>, <a href="https://naked-science.ru/article/hi-tech/issledovateli-yandeksa">naked-science.ru</a>, <a href="https://www.cnews.ru/news/line/2025-09-09_issledovateli_yandeksa">cnews.ru</a>, and <a href="https://itsnew.ru/stati/jandeks-predstavil-obnovlennye-funkcii-dokumentov-i-zapustil-mezhdunarodnuyu-olimpiadu-po-ii.html">itsnew.ru</a>. It was listed among <a href="https://open.substack.com/pub/recsys/p/towards-agentic-rag-with-deep-reasoning?utm_campaign=post-expanded-share&amp;utm_medium=web">Top Information Retrieval Papers of the Week</a>.
 date: 2025-07-12
 venue: 'Proceedings of the 19th ACM Conference on Recommender Systems (RecSys’25)'
 paperurl: 'https://arxiv.org/abs/2507.09331'
