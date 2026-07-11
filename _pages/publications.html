@@ -1,36 +1,40 @@
 ---
 layout: archive
-title: "Publications"
-permalink: /publications/
+title: "Conferences"
+permalink: /conferences/
 author_profile: true
+redirect_from:
+  - /publications/
 ---
+
+{% include base_path %}
 
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-{% include base_path %}
+<h2>Publications</h2><hr />
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<ul>
+  <li><strong>KDD 2026.</strong> <a href="{{ base_path }}/publication/2025-07-21-argus">Scaling Recommender Transformers to One Billion Parameters</a><br />
+  Kirill Khrylchenko, Artem Matveev, <strong>Sergei Makeev</strong>, Vladimir Baikalov</li>
+  <li><strong>KDD 2026 Workshop.</strong> Long-Term Optimization for Large-Scale Generative Retrieval with Off-Policy REINFORCE, <i>5th Workshop on End-to-End Customer Journey Optimization</i><br />
+  Artem Matveev, <strong>Sergei Makeev</strong>, Aleksei Krasilnikov, Vladimir Baikalov, Sergei Liamaev, Kirill Khrylchenko</li>
+  <li><strong>SIGIR 2026.</strong> <a href="{{ base_path }}/publication/2026-06-08-gbla">Gated Bidirectional Linear Attention for Generative Retrieval</a><br />
+  Artem Matveev, Vladislav Tytskiy, <strong>Sergei Makeev</strong>, Sergei Liamaev</li>
+  <li><strong>RecSys 2025.</strong> <a href="{{ base_path }}/publication/2025-08-09-challenge">Blending Sequential Embeddings, Graphs, and Engineered Features: 4th Place Solution in RecSys Challenge 2025</a><br />
+  <strong>Sergei Makeev</strong>, Alexandr Andreev, Vladimir Baikalov, Vladislav Tytskiy, Aleksei Krasilnikov, Kirill Khrylchenko</li>
+  <li><a href="{{ base_path }}/publication/2025-07-12-correcting">Correcting the LogQ Correction: Revisiting Sampled Softmax for Large-Scale Retrieval</a><br />
+  Kirill Khrylchenko, Vladimir Baikalov, <strong>Sergei Makeev</strong>, Artem Matveev, Sergei Liamaev</li>
+</ul>
+
+<h2>Professional Service</h2><hr />
+
+<ul>
+  <li><strong>CIKM 2026.</strong> PC member, Demo Track.</li>
+  <li><strong>UMAP 2026.</strong> PC member, Industry Track.</li>
+  <li><strong>UMAP 2025.</strong> PC member, Industry &amp; Start-up Track.</li>
+</ul>
 
 
 
