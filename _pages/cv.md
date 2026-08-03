@@ -63,7 +63,7 @@ Work experience
     * Worked on pretraining large-scale generative recommender models.
 
 * **Research Intern**, RecSys R&D at Yandex, 2024
-  * Research topic: applications of graph neural networks in web-scale recommender systems.
+  * Research topic: optimal ways to represent items in web-scale transformer-based recommenders. Authored [Embedding Items at Scale: Comparing GNN-Based and ID-Based Item Embeddings in the Yandex Ecosystem](https://neuralsrg.github.io/publication/2024-06-01-gnns).
 
 * **Research Assistant**, Moscow State University, 2021 -- 2024
   * Research topics: cognitive dynamics analysis and internal speech recognition under Russian Science Foundation grants [#20-18-00067](https://rscf.ru/project/LXjuaL8yl_MKyMwV-E0AYmYXKZ7dVATTIy5v_6WfDOq3PZJVv6H2gRUOxla_daUJ4bgTN-xp/) and [#20-18-00067-Π](https://rscf.ru/project/OwNy03bhBYAiNgcRD1Lq9DYlzpziFaDtdi0LjD-lDfhmGp1fntBfNIA3DdjvFBf32QgMbnrg/), under the supervision of [Dr. Alexander Vartanov](https://www.researchgate.net/profile/Vartanov-Alexander).
